@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon" href="./cadastro.png" type="image/x-icon">
+    <title>Cadastro Responsivo | JS</title>
+</head>
+
+<body>
+
+    <!-- ANIMATED BACKGROUND -->
+
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <section class="section">
+
+        <!-- LOGAR NA CONTA -->
+
+        <div class="container-account1">
+
+            <div class="content-account">
+
+                <h1 class="title"><strong>Login</strong></h1>
+
+                <h3 class="second-way"><strong>Redes Sociais</strong></h3>
+
+                <div class="icons">
+                    <ion-icon class="icon-social" name="logo-google"></ion-icon>
+                    <ion-icon class="icon-social" name="logo-facebook"></ion-icon>
+                </div>
+
+                <p class="or"><strong>Ou</strong></p>
+
+                <h3 class="first-way"><strong>Email e Senha</strong></h3>
+
+                <form method="POST">
+
+                    <input type="email" placeholder="Email" class="email" required>
+                    <input type="password" name="senha" placeholder="Senha" class="senha" required>
+                    <i class='bx bx-hide btnEye eyeLogin'></i>
+                    <p class="forgot"><a href="#" class="forgot-link linksForm"><strong>Esqueci Minha Senha</strong></a>
+                    </p>
+                    <input type="submit" value="Entrar" class="btn">
+
+                </form>
+
+                <p class="not-account"><strong>Não tem cadastro? <a href="#"
+                            class="link-account linksForm">Cadastrar-se</strong></a></p>
+            </div>
+        </div>
+
+        <!-- CADASTRAR-SE -->
+
+        <div class="container-account2">
+
+            <div class="content-account">
+                <h1 class="title"><strong>Cadastro</strong></h1>
+
+                <h3 class="second-way"><strong>Redes Sociais</strong></h3>
+
+                <div class="icons">
+                    <ion-icon class="icon-social" name="logo-google"></ion-icon>
+                    <ion-icon class="icon-social" name="logo-facebook"></ion-icon>
+                </div>
+
+                <p class="or"><strong>Ou</strong></p>
+
+                <h3 class="first-way"><strong>Email e Senha</strong></h3>
+
+                <form method="POST">
+
+                    <input type="email" placeholder="Email" class="email" required>
+                    <input type="password" name="senha" placeholder="Senha" class="senha criarSenha" required>
+                    <i class='bx bx-hide btnEye eyeCreate1'></i>
+                    <input type="password" name="senha" placeholder="Confirmar Senha" class="senhaC" required>
+                    <i class='bx bx-hide bx3 btnEyeC eyeCreate2'></i>
+                    <input type="submit" class="btn btnCreate" value="Criar Conta">
+
+                </form>
+
+                <ion-icon class="back_to_login" name="arrow-back-outline"></ion-icon>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="./document.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>

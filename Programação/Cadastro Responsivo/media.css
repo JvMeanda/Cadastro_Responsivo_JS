@@ -1,0 +1,145 @@
+/* MAIOR PX EM CIMA E O MENOR PX EM BAIXO */
+
+/* PRIMEIRO CONTAINER (LOGIN) */
+
+@media (max-width: 995px) {
+  .section {
+    width: 450px;
+    height: 580px;
+  }
+
+  .eyeLogin {
+    font-size: 1.45em;
+    top: 363px;
+    left: 72%;
+  }
+}
+
+@media (max-width: 950px) {
+  .eyeLogin {
+    font-size: 1.45em;
+    top: 363px;
+    left: 72%;
+  }
+
+  .circles li:nth-child(14) {
+    display: none;
+  }
+
+  .circles li:nth-child(6) {
+    display: none;
+  }
+
+  .circles li:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 850px) {
+  .eyeLogin {
+    font-size: 1.65em;
+    top: 361px;
+    left: 71%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .container-account1,
+  .container-account2 {
+    width: 430px;
+    height: 580px;
+    font-size: 0.9rem;
+  }
+
+  .eyeLogin {
+    font-size: 1.65em;
+    top: 352px;
+    left: 71%;
+    display: flex;
+    align-items: center;
+  }
+
+  .circles li:nth-child(14) {
+    display: none;
+  }
+
+  .circles li:nth-child(6) {
+    display: none;
+  }
+
+  .circles li:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 570px) {
+  .circles {
+    height: 100%;
+  }
+  .circles li:nth-child(9) {
+    display: none;
+  }
+
+  .circles li:nth-child(7) {
+    display: none;
+  }
+
+  .circles li:nth-child(14) {
+    display: none;
+  }
+
+  .circles li:nth-child(11) {
+    display: none;
+  }
+
+  .circles li:nth-child(12) {
+    display: none;
+  }
+
+  .circles li:nth-child(1) {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .eyeLogin {
+    font-size: 1.65em;
+    top: 357px;
+    left: 71%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 412px) {
+  .eyeLogin {
+    font-size: 1.65em;
+    top: 356px;
+    left: 71%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* SEGUNDO CONTAINER (CRIAR CONTA) */
+
+@media (max-width: 996px) {
+  .eyeCreate1,
+  .eyeCreate2 {
+    left: 71%;
+  }
+}
+
+@media (max-width: 650px) {
+  .eyeCreate1 {
+    top: 349px;
+    left: 71%;
+  }
+
+  .eyeCreate2 {
+    top: 402px;
+    left: 71%;
+  }
+}
